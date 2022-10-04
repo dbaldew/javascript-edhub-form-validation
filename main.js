@@ -6,7 +6,7 @@ const passwordInput = document.getElementById('password');
 const usernameWarning = document.getElementById('username-warning');
 const passwordWarning = document.getElementById('password-warning')
 
-//add eventlistners to inputfield refs
+//add eventlistners to inputfield & warningfield refs
 usernameInput.addEventListener("keyup", checkUsername);
 passwordInput.addEventListener("keyup", checkPassword);
 
@@ -17,9 +17,9 @@ function checkUsername (e){
     }else {
         usernameWarning.textContent ="";
     }
-
 }
 
+//function to check password, called by eventlistener
 function checkPassword (e){
     if(e.target.length === "" || e.target.length>6){
         passwordWarning.textContent = "";
