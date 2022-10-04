@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Constantia;
+
+}
+
+
+form{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sign-up{
+    background-color: crimson;
+    padding: 20px;
+
+}
+
+h1{
+    color: aliceblue;
+}
+
+
+.label{
+    color: aliceblue;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+}
+.form-warning{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+p{
+    color: aliceblue;
+}
+
